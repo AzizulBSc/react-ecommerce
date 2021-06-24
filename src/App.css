@@ -8,6 +8,7 @@
 }
 .navwrapper  a{
   padding-left: 20px;
+  color: burlywood;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
