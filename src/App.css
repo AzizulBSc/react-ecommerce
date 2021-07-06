@@ -1,12 +1,26 @@
 .App {
   text-align: center;
 }
+.delete {
+  background-color: #ec0219;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.update {
+  background-color: #037e18c5;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-.navwrapper  a{
+.navwrapper a {
   padding-left: 20px;
   color: burlywood;
 }

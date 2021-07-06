@@ -28,11 +28,14 @@ export default function Register() {
         localStorage.setItem("user-info",JSON.stringify(result));
         history.push("/add")
 
+
+
     }
     return (
         <>
         <Header/>
         <div className="col-sm-6 offset-sm-3">
+        
          <h1>Admin Register</h1> 
          <br/> 
          <input className="form form-control" onChange ={(e)=>setName(e.target.value)} value ={name} type = "text" name = "name" placeholder="Enter Your Name"></input> 
